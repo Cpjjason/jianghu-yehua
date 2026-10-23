@@ -10,6 +10,9 @@
 - 剧情里每次歇脚都能聊：崖底、雪山、崆峒的自由时间。
 - 送礼看各人喜好，不合心意的当面退回；讨教武学、炼丹会真的加。
 - 她记得你们之间的事，过几旬再去，还提得起。
+- **入梦**：杏花仙瑞杏不在唐门，只在梦里相见。做过她的锦囊梦之后，地图上多一个「入梦」，每月一次；梦里只能赐你命运之力，醒来只记得她一句话。
+- **赵活师兄美化**（单独的 mod，可装可不装）：凳子本凳绘的「主角美化 + 师兄娘化三合一」，经作者同意一起发布，修好了游戏更新后失效的问题。游戏里按 F1 可以分别开关，还能放自己的图替换任何人的立绘；装了夜话的，在设置里一键下载。
+- **一键更新**：有新版本时，设置页最上面点一下就更新。
 - 有免费游玩的选项，不用自己找 Key；也可以用自己的 DeepSeek / OpenRouter / Kimi 等 Key。
 
 <p align="center"><img src="images/demo.gif" width="100%" alt="演示"></p>
@@ -26,7 +29,7 @@
 **最省事：一键安装**
 
 1. 把压缩包解压到任意位置（右键 → 全部解压缩）。
-2. 双击解压出来的 **「点我安装.bat」**。它会自己找到《活侠传》的游戏文件夹（Steam 库、或者你解压到的上一层），把需要的东西拷进去，最后显示「装好了！」。
+2. 双击解压出来的 **「点我安装.bat」**。它会自己找到《活侠传》的游戏文件夹（Steam 库、或者你解压到的上一层），联网装上最新版（连不上就装压缩包里这一版），问你要不要顺便装立绘美化，最后显示「装好了！」。以后再运行一次就是更新。
    - 弹出 Windows 安全提示时点「运行」（或「更多信息」→「仍要运行」）。
    - 找不到游戏时会弹窗让你选游戏文件夹（里面有 `Mortal.exe` 的那个）。
 3. **正常启动游戏**。进到唐门地图，右上角「储存」左边多了「夜话」按钮，就装好了。
@@ -55,7 +58,12 @@
 
 ## 隐私
 
-你和角色说的话、以及这段对话需要的游戏状态（好感、时间、人物信息），会发给你在设置里选的服务商生成回复：用自己的 Key 时只发给那个服务商，选 Yumina 时发给 Yumina，别的地方都不发。夜话的记忆存在本机 `BepInEx\config\JianghuYehua\`。
+你和角色说的话、以及这段对话需要的游戏状态（好感、时间、人物信息），会发给你在设置里选的服务商生成回复：用自己的 Key 时只发给那个服务商，选 Yumina 时发给 Yumina。夜话的记忆存在本机 `BepInEx\config\JianghuYehua\`。
+
+另外只有两样会发给我们：
+
+- **反馈**：你在「设置 › 反馈」里写了并点「发送」才发；那次对话只有你选「附上」时才带。
+- **匿名统计**：每次谈话结束发一条，只有和谁聊、聊了几句、有没有出错，不含聊天内容和账号。「设置 › 反馈」最下面可以关掉。
 
 ## 开源组件
 
@@ -71,6 +79,9 @@ BepInEx 6（LGPL-2.1）· Jint（BSD-2-Clause）· Acornima（BSD-3-Clause）· 
 - 스토리 중 쉬어 가는 때에도 대화할 수 있어요: 절벽 아래, 설산, 공동파 자유 시간.
 - 선물은 각자 취향대로 받고, 마음에 안 들면 그 자리에서 돌려줘요. 무공·연단 가르침을 받으면 수치가 실제로 올라요.
 - 함께한 일을 기억해서, 몇 순이 지나 다시 찾아가도 꺼내요.
+- **꿈에 들기**: 행화선 서행(瑞杏)은 당문에 없고 꿈에서만 만나요. 그녀의 금낭 꿈을 본 뒤로 지도에 「꿈에 들기」가 생겨요(한 달에 한 번).
+- **조활 사형 미화** (별도 모드): 凳子本凳 님이 그린 「주인공 미화 + 사형 여체화」를 작가의 동의를 받아 함께 배포해요. 게임에서 F1 로 따로 켜고 끄거나, 내 그림을 넣어 누구의 일러스트든 바꿀 수 있어요.
+- **원클릭 업데이트**: 새 버전이 나오면 설정 맨 위에서 바로 업데이트할 수 있어요.
 - 게임 언어를 한국어로 해 두면 메뉴와 대화가 한국어로 나와요.
 - 본인 API 키(DeepSeek / OpenRouter / Kimi 등)를 연결할 수 있고, 키가 없으면 Yumina에 로그인해서 무료 이용량을 받을 수 있어요.
 
@@ -87,12 +98,14 @@ BepInEx 6（LGPL-2.1）· Jint（BSD-2-Clause）· Acornima（BSD-3-Clause）· 
    - 키가 없으면: 맨 위 금색 칸 <b>「API 키가 없나요? 여기서 무료로 플레이」</b>를 누르고, 브라우저에서 가입/로그인한 뒤 「허용」을 누르면 게임이 자동으로 연결돼요.
    - 본인 키: 제공처를 고르고 API 키를 붙여넣은 뒤 「연결 테스트」. 키는 내 컴퓨터에만 저장되고, 고른 제공처에만 전송돼요.
 
+대화가 끝날 때마다 익명 통계(누구와, 몇 마디, 오류 여부)만 저희에게 보내요. 대화 내용과 계정은 보내지 않고, 「설정 › 피드백」 맨 아래에서 끌 수 있어요.
+
 문제가 있으면 [Issues](https://github.com/Cpjjason/jianghu-yehua/issues)에 남겨 주세요.
 
 ---
 
 ### English
 
-**Jianghu Yehua** is an AI conversation mod for *Legend of Mortal*: sit down with anyone in the Tang Sect (and at the story's rest points) and type whatever you want to say; they answer in the game's own dialogue boxes, portraits and expressions, remember what you've shared, react to gifts by taste, and can really teach you skills.
+**Jianghu Yehua** is an AI conversation mod for *Legend of Mortal*: sit down with anyone in the Tang Sect (and at the story's rest points) and type whatever you want to say; they answer in the game's own dialogue boxes, portraits and expressions, remember what you've shared, react to gifts by taste, and can really teach you skills. New in 0.6.1: dream visits with 瑞杏 (the Apricot Immortal), an optional separate portrait mod (art by 凳子本凳, published with his permission, fixed to survive game updates; F1 to switch packs or drop in your own pictures), and one-click updates from the settings page.
 
-Install: extract the release zip anywhere and double-click `点我安装.bat` (it finds the game through Steam and copies everything next to `Mortal.exe`), or extract it straight into the game folder; then start the game and press 「夜话」 on the map. Use your own API key (DeepSeek / OpenRouter / Kimi …) or press the gold **free** panel at the top of the settings (it switches to **Yumina**) to play for free without a key. UI languages: Simplified Chinese, Traditional Chinese, Korean.
+Install: extract the release zip anywhere and double-click `点我安装.bat` (it finds the game through Steam and copies everything next to `Mortal.exe`), or extract it straight into the game folder; then start the game and press 「夜话」 on the map. Use your own API key (DeepSeek / OpenRouter / Kimi …) or press the gold **free** panel at the top of the settings (it switches to **Yumina**) to play for free without a key. UI languages: Simplified Chinese, Traditional Chinese, Korean. After each talk the mod sends us an anonymous count (who, how many lines, whether a reply failed; never what was said, never the account); turn it off at the bottom of Settings › Feedback.
