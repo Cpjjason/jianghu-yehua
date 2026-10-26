@@ -12,6 +12,7 @@
 - 她记得你们之间的事，过几旬再去，还提得起。
 - **入梦**：杏花仙瑞杏不在唐门，只在梦里相见。做过她的锦囊梦之后，地图上多一个「入梦」，每月一次；梦里只能赐你命运之力，醒来只记得她一句话。
 - **赵活师兄美化**（单独的 mod，可装可不装）：凳子本凳绘的「主角美化 + 师兄娘化三合一」，经作者同意一起发布，修好了游戏更新后失效的问题。游戏里按 F1 可以分别开关，还能放自己的图替换任何人的立绘；装了夜话的，在设置里一键下载。
+- **自己改人设和世界书**：人际页「夜话」下面点「人设」，用记事本改某个人的人设，或者写所有人都知道的世界书（可以设关键词，聊到才用上）。文件在游戏文件夹的「夜话设定」里，整个文件夹发给别人就能用同一套设定。开了师兄娘化的，夜话里她们也是女子。
 - **一键更新**：有新版本时，设置页最上面点一下就更新。
 - 有免费游玩的选项，不用自己找 Key；也可以用自己的 DeepSeek / OpenRouter / Kimi 等 Key。
 
@@ -81,6 +82,7 @@ BepInEx 6（LGPL-2.1）· Jint（BSD-2-Clause）· Acornima（BSD-3-Clause）· 
 - 함께한 일을 기억해서, 몇 순이 지나 다시 찾아가도 꺼내요.
 - **꿈에 들기**: 행화선 서행(瑞杏)은 당문에 없고 꿈에서만 만나요. 그녀의 금낭 꿈을 본 뒤로 지도에 「꿈에 들기」가 생겨요(한 달에 한 번).
 - **조활 사형 미화** (별도 모드): 凳子本凳 님이 그린 「주인공 미화 + 사형 여체화」를 작가의 동의를 받아 함께 배포해요. 게임에서 F1 로 따로 켜고 끄거나, 내 그림을 넣어 누구의 일러스트든 바꿀 수 있어요.
+- <b>인물 설정·세계관 직접 고치기</b>: 인간관계 페이지의 「야화」 아래 「인물」을 누르면 메모장으로 그 인물의 설정이나 모두가 아는 세계관을 고칠 수 있어요(키워드를 달면 대화에 나올 때만 쓰여요). 파일은 게임 폴더의 「夜话设定」에 있어서 폴더째 나눌 수 있어요. 사형 여체화를 켜 두면 야화에서도 여자로 대화해요.
 - **원클릭 업데이트**: 새 버전이 나오면 설정 맨 위에서 바로 업데이트할 수 있어요.
 - 게임 언어를 한국어로 해 두면 메뉴와 대화가 한국어로 나와요.
 - 본인 API 키(DeepSeek / OpenRouter / Kimi 등)를 연결할 수 있고, 키가 없으면 Yumina에 로그인해서 무료 이용량을 받을 수 있어요.
@@ -106,6 +108,6 @@ BepInEx 6（LGPL-2.1）· Jint（BSD-2-Clause）· Acornima（BSD-3-Clause）· 
 
 ### English
 
-**Jianghu Yehua** is an AI conversation mod for *Legend of Mortal*: sit down with anyone in the Tang Sect (and at the story's rest points) and type whatever you want to say; they answer in the game's own dialogue boxes, portraits and expressions, remember what you've shared, react to gifts by taste, and can really teach you skills. New in 0.6.1: dream visits with 瑞杏 (the Apricot Immortal), an optional separate portrait mod (art by 凳子本凳, published with his permission, fixed to survive game updates; F1 to switch packs or drop in your own pictures), and one-click updates from the settings page.
+**Jianghu Yehua** is an AI conversation mod for *Legend of Mortal*: sit down with anyone in the Tang Sect (and at the story's rest points) and type whatever you want to say; they answer in the game's own dialogue boxes, portraits and expressions, remember what you've shared, react to gifts by taste, and can really teach you skills. New in 0.6.1: dream visits with 瑞杏 (the Apricot Immortal), an optional separate portrait mod (art by 凳子本凳, published with his permission, fixed to survive game updates; F1 to switch packs or drop in your own pictures), and one-click updates from the settings page. New in 0.6.8: edit any character's persona or a shared world book in Notepad (「人设」 under 「夜话」 on the relationships page; files live in the game folder's 「夜话设定」 and can be shared), and brothers turned female by the portrait mod talk as women too.
 
 Install: extract the release zip anywhere and double-click `点我安装.bat` (it finds the game through Steam and copies everything next to `Mortal.exe`), or extract it straight into the game folder; then start the game and press 「夜话」 on the map. Use your own API key (DeepSeek / OpenRouter / Kimi …) or press the gold **free** panel at the top of the settings (it switches to **Yumina**) to play for free without a key. UI languages: Simplified Chinese, Traditional Chinese, Korean. After each talk the mod sends us an anonymous count (who, how many lines, whether a reply failed; never what was said, never the account); turn it off at the bottom of Settings › Feedback.
